@@ -168,10 +168,18 @@ bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
   const balance = await getBalance(chatId);
 
-  const welcome = `Welcome to the *PREMIUM NUMBER BOT!* 🚀\n\n💰 *Your Balance:* \`${balance}\` points\n\nTap a button below to get started:`;
+  const welcome = `Welcome to the *PREMIUM NUMBER BOT!* 🚀\n\n💰 *Your Balance:* \`${balance}\` points`;
 
-  bot.sendMessage(chatId, welcome, {
+  await bot.sendMessage(chatId, welcome, {
     parse_mode: 'Markdown',
+    reply_markup: {
+      inline_keyboard: [
+        [{ text: '📢 Active Range', url: 'https://t.me/premimumotpbot' }]
+      ]
+    }
+  });
+
+  bot.sendMessage(chatId, 'Tap a button below to get started:', {
     reply_markup: {
       keyboard: [
         [{ text: '📲 Get Number', style: 'primary' }, { text: '📡 Live Traffic', style: 'primary' }],
@@ -515,7 +523,7 @@ bot.on('message', async (msg) => {
     return bot.sendMessage(chatId, 'Need help? Contact our admin for support!', {
       reply_markup: {
         inline_keyboard: [
-          [{ text: '🧑‍💻 Contact Admin', url: 'https://t.me/raz908878', style: 'primary' }]
+          [{ text: '🧑💻 Contact Admin', url: 'https://t.me/raz908878', style: 'primary' }]
         ]
       }
     });
@@ -734,7 +742,7 @@ setInterval(async () => {
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
                     { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
-                    { text: '🧑‍💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
+                    { text: '🧑💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
                   ]
                 ]
               }
@@ -858,7 +866,7 @@ setInterval(async () => {
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
                     { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
-                    { text: '🧑‍💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
+                    { text: '🧑💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
                   ]
                 ]
               }
@@ -971,7 +979,7 @@ setInterval(async () => {
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
                     { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
-                    { text: '🧑‍💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
+                    { text: '🧑💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
                   ]
                 ]
               }
