@@ -285,10 +285,10 @@ async function fetchNumberForUser(chatId, range, messagesToDelete = []) {
           inline_keyboard: [
             [
               { text: '🔄 Change Number', callback_data: `change_number:${range}`, style: 'success' },
-              { text: '📊 Active Ranges', url: 'https://t.me/srfranges', style: 'primary' }
+              { text: '📊 Active Ranges', url: 'https://t.me/premimumotpbot', style: 'primary' }
             ],
             [
-              { text: '📬 OTP Group', url: 'https://t.me/srfotpgroups', style: 'success' }
+              { text: '📬 OTP Group', url: 'https://t.me/premiumotpgroupbd', style: 'success' }
             ]
           ]
         }
@@ -394,10 +394,10 @@ bot.on('callback_query', async (query) => {
           inline_keyboard: [
             [
               { text: '🔄 Change Number', callback_data: `change_number:${lastData.range}`, style: 'success' },
-              { text: '📊 Active Ranges', url: 'https://t.me/srfranges', style: 'primary' }
+              { text: '📊 Active Ranges', url: 'https://t.me/premimumotpbot', style: 'primary' }
             ],
             [
-              { text: '📬 OTP Group', url: 'https://t.me/srfotpgroups', style: 'success' }
+              { text: '📬 OTP Group', url: 'https://t.me/premiumotpgroupbd', style: 'success' }
             ]
           ]
         }
@@ -711,7 +711,7 @@ setInterval(async () => {
               inline_keyboard: [
                 [
                   { text: '🔄 Change Number', callback_data: `change_from_otp:${reqData.range}`, style: 'success' },
-                  { text: '📊 Active Ranges', url: 'https://t.me/srfranges', style: 'primary' }
+                  { text: '📊 Active Ranges', url: 'https://t.me/premimumotpbot', style: 'primary' }
                 ],
                 [
                   { text: '🔁 Restore Last Number', callback_data: `restore_last:${pNumber}`, style: 'danger' }
@@ -733,7 +733,7 @@ setInterval(async () => {
                 inline_keyboard: [
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
-                    { text: '🤖 Bot', url: 'https://t.me/srfmk_bot', style: 'primary' },
+                    { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
                     { text: '🧑‍💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
                   ]
                 ]
@@ -835,7 +835,7 @@ setInterval(async () => {
               inline_keyboard: [
                 [
                   { text: '🔄 Change Number', callback_data: `change_from_otp:${reqData.range}`, style: 'success' },
-                  { text: '📊 Active Ranges', url: 'https://t.me/srfranges', style: 'primary' }
+                  { text: '📊 Active Ranges', url: 'https://t.me/premimumotpbot', style: 'primary' }
                 ],
                 [
                   { text: '🔁 Restore Last Number', callback_data: `restore_last:${pNumber}`, style: 'danger' }
@@ -857,7 +857,7 @@ setInterval(async () => {
                 inline_keyboard: [
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
-                    { text: '🤖 Bot', url: 'https://t.me/srfmk_bot', style: 'primary' },
+                    { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
                     { text: '🧑‍💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
                   ]
                 ]
@@ -949,7 +949,7 @@ setInterval(async () => {
               inline_keyboard: [
                 [
                   { text: '🔄 Change Number', callback_data: `change_from_otp:${reqData.range}`, style: 'success' },
-                  { text: '📊 Active Ranges', url: 'https://t.me/srfranges', style: 'primary' }
+                  { text: '📊 Active Ranges', url: 'https://t.me/premimumotpbot', style: 'primary' }
                 ],
                 [
                   { text: '🔁 Restore Last Number', callback_data: `restore_last:${pNumber}`, style: 'danger' }
@@ -970,7 +970,7 @@ setInterval(async () => {
                 inline_keyboard: [
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
-                    { text: '🤖 Bot', url: 'https://t.me/srfmk_bot', style: 'primary' },
+                    { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
                     { text: '🧑‍💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
                   ]
                 ]
@@ -1006,7 +1006,7 @@ setInterval(async () => {
         parse_mode: 'Markdown',
         reply_markup: {
           inline_keyboard: [
-            [{ text: '📊 Active Range', url: 'https://t.me/srfranges' }]
+            [{ text: '📊 Active Range', url: 'https://t.me/premimumotpbot' }]
           ]
         }
       }).catch(() => {});
@@ -1086,7 +1086,7 @@ if (RANGE_GROUP_ID) {
                           `🎯 *Range (Tap to copy):*\n` +
                           `\`${rangeStr}\`\n\n` +
                           `🔑 *OTP:* \`******\`\n\n` +
-                          `*Bot :* @srfmk\\_bot`;
+                          `*Bot :* @premiumotpbd\\_bot`;
 
           let msgSent = false;
           let retries = 0;
