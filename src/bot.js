@@ -512,7 +512,7 @@ bot.on('message', async (msg) => {
     return bot.sendMessage(chatId, 'Need help? Contact our admin for support!', {
       reply_markup: {
         inline_keyboard: [
-          [{ text: '🧑💻 Contact Admin', url: 'https://t.me/raz908878', style: 'primary' }]
+          [{ text: '🧑💻 Contact Admin', url: 'https://t.me/ariful_islam01871', style: 'primary' }]
         ]
       }
     });
@@ -731,7 +731,7 @@ setInterval(async () => {
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
                     { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
-                    { text: '🧑💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
+                    { text: '🧑💻 Developer', url: 'https://t.me/ariful_islam01871', style: 'danger' }
                   ]
                 ]
               }
@@ -855,7 +855,7 @@ setInterval(async () => {
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
                     { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
-                    { text: '🧑💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
+                    { text: '🧑💻 Developer', url: 'https://t.me/ariful_islam01871', style: 'danger' }
                   ]
                 ]
               }
@@ -968,7 +968,7 @@ setInterval(async () => {
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
                     { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
-                    { text: '🧑💻 Developer', url: 'https://t.me/raz908878', style: 'danger' }
+                    { text: '🧑💻 Developer', url: 'https://t.me/ariful_islam01871', style: 'danger' }
                   ]
                 ]
               }
