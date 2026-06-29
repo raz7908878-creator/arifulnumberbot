@@ -754,7 +754,7 @@ setInterval(async () => {
                 inline_keyboard: [
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
-                    { text: '🤖 Bot', url: 'https://t.me/srfmk_bot', style: 'primary' },
+                    { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
                     { text: '🧑‍💻 Developer', url: 'https://t.me/ariful_islam01871', style: 'danger' }
                   ]
                 ]
@@ -877,7 +877,7 @@ setInterval(async () => {
                 inline_keyboard: [
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
-                    { text: '🤖 Bot', url: 'https://t.me/srfmk_bot', style: 'primary' },
+                    { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
                     { text: '🧑‍💻 Developer', url: 'https://t.me/ariful_islam01871', style: 'danger' }
                   ]
                 ]
@@ -989,7 +989,7 @@ setInterval(async () => {
                 inline_keyboard: [
                   [{ text: `🔑 ${newOtps}`, copy_text: { text: newOtps }, style: 'success' }],
                   [
-                    { text: '🤖 Bot', url: 'https://t.me/srfmk_bot', style: 'primary' },
+                    { text: '🤖 Bot', url: 'https://t.me/premiumotpbd_bot', style: 'primary' },
                     { text: '🧑‍💻 Developer', url: 'https://t.me/ariful_islam01871', style: 'danger' }
                   ]
                 ]
